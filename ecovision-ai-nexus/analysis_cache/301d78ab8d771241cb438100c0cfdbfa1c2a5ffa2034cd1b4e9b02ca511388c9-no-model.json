@@ -1,0 +1,342 @@
+{
+  "image_id": "cc54ff0cc239d669d7f23f99.jpg",
+  "cached_image_url": "/cache/cc54ff0cc239d669d7f23f99.jpg",
+  "predicted_class": "recyclable",
+  "confidence_score": 0.31,
+  "top_3_predictions": [
+    {
+      "label": "recyclable",
+      "score": 0.31,
+      "class_index": 0
+    },
+    {
+      "label": "organic",
+      "score": 0.28,
+      "class_index": 2
+    },
+    {
+      "label": "non-recyclable",
+      "score": 0.23,
+      "class_index": 1
+    }
+  ],
+  "primary_category": "recyclable",
+  "total_detected_items": 5,
+  "detections": [
+    {
+      "label": "food waste",
+      "category": "organic",
+      "confidence": 0.78,
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 409,
+        "height": 533
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 295.3,
+      "estimated_volume_ml": 798.0,
+      "carbon_impact_kg_co2e": 0.032,
+      "carbon_saved_if_recycled_kg": 0.018,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "food waste",
+      "category": "organic",
+      "confidence": 0.75,
+      "bounding_box": {
+        "x": 369,
+        "y": 11,
+        "width": 579,
+        "height": 444
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 295.3,
+      "estimated_volume_ml": 798.0,
+      "carbon_impact_kg_co2e": 0.032,
+      "carbon_saved_if_recycled_kg": 0.018,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "food waste",
+      "category": "organic",
+      "confidence": 0.72,
+      "bounding_box": {
+        "x": 372,
+        "y": 290,
+        "width": 391,
+        "height": 243
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 282.3,
+      "estimated_volume_ml": 763.1,
+      "carbon_impact_kg_co2e": 0.031,
+      "carbon_saved_if_recycled_kg": 0.017,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "food waste",
+      "category": "organic",
+      "confidence": 0.69,
+      "bounding_box": {
+        "x": 290,
+        "y": 46,
+        "width": 208,
+        "height": 237
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 165.2,
+      "estimated_volume_ml": 446.5,
+      "carbon_impact_kg_co2e": 0.018,
+      "carbon_saved_if_recycled_kg": 0.01,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "food waste",
+      "category": "organic",
+      "confidence": 0.66,
+      "bounding_box": {
+        "x": 689,
+        "y": 34,
+        "width": 211,
+        "height": 220
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 157.8,
+      "estimated_volume_ml": 426.5,
+      "carbon_impact_kg_co2e": 0.017,
+      "carbon_saved_if_recycled_kg": 0.009,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    }
+  ],
+  "item_counts": [
+    {
+      "label": "food waste",
+      "count": 5,
+      "category": "organic"
+    }
+  ],
+  "recycling_suggestions": [
+    {
+      "title": "Rinse Before Recycling",
+      "instruction": "Quickly rinse containers so residue does not contaminate the recycling stream.",
+      "impact": "Cleaner batches improve recycling yield and lower sorting losses."
+    },
+    {
+      "title": "Keep Materials Dry",
+      "instruction": "Store paper, cardboard, and plastics in a dry bin before collection.",
+      "impact": "Dry recyclables are more likely to be accepted by facilities."
+    }
+  ],
+  "weight_estimate": {
+    "total_weight_g": 1195.9,
+    "total_volume_ml": 3232.1,
+    "method": "Bounding-box area scaled against an assumed smart-bin camera field of view.",
+    "reference_note": "For production accuracy, calibrate against a known reference marker or bin geometry."
+  },
+  "environmental_metrics": {
+    "decomposition_time": "2-6 weeks",
+    "damage_score": 28,
+    "carbon_impact_kg_co2e": 0.13,
+    "carbon_saved_if_recycled_kg": 0.072,
+    "methane_risk": "High if wet waste is landfilled",
+    "circularity_score": 77
+  },
+  "risk_assessment": {
+    "level": "Low",
+    "score": 18,
+    "note": "Suitable for routine segregation with standard handling."
+  },
+  "weather": {
+    "temperature_c": 27.0,
+    "weather_code": 0,
+    "wind_speed_kph": 11.0,
+    "impact_note": "Current weather is relatively stable, making this a good time to sort waste accurately.",
+    "latitude": 17.23635087403596,
+    "longitude": 78.54037215954439,
+    "source": "Open-Meteo (fallback)"
+  },
+  "lifecycle": [
+    {
+      "title": "Waste",
+      "description": "Item enters the segregation pipeline at source.",
+      "accent": "#16a34a"
+    },
+    {
+      "title": "Collection",
+      "description": "Municipal or community teams collect separated streams.",
+      "accent": "#0ea5e9"
+    },
+    {
+      "title": "Sorting",
+      "description": "AI detection and human checks improve stream purity.",
+      "accent": "#f59e0b"
+    },
+    {
+      "title": "Processing",
+      "description": "Materials are cleaned, shredded, composted, or stabilized.",
+      "accent": "#f97316"
+    },
+    {
+      "title": "Reuse",
+      "description": "Recovered material re-enters the circular economy.",
+      "accent": "#10b981"
+    }
+  ],
+  "government_initiatives": [
+    {
+      "title": "Swachh Bharat Mission",
+      "value": "Urban cleanliness and waste management drive",
+      "note": "Promotes source segregation, door-to-door collection, and waste processing adoption.",
+      "source": "Government of India"
+    },
+    {
+      "title": "MoHUA Focus",
+      "value": "Segregation at source",
+      "note": "Municipal solid waste programs prioritize segregated collection and recovery infrastructure.",
+      "source": "Ministry of Housing and Urban Affairs"
+    }
+  ],
+  "city_statistics": [
+    {
+      "title": "Smart City Readiness",
+      "value": "76%",
+      "note": "Illustrative readiness score for digital waste tracking and citizen participation features.",
+      "source": "EcoVision demo analytics"
+    },
+    {
+      "title": "Cleanliness Benchmark",
+      "value": "Top-20 aspirational target",
+      "note": "Cities improve ranking by increasing segregation, recycling, and citizen reporting.",
+      "source": "EcoVision policy module"
+    }
+  ],
+  "nearby_centers": [
+    {
+      "name": "Hazardous Drop-Off Point",
+      "address": "Municipal Hazardous Collection Desk",
+      "distance_km": 484.1,
+      "kind": "Hazardous",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9784,77.6001"
+    },
+    {
+      "name": "Civic Dry Waste Center",
+      "address": "Ward Resource Recovery Hub",
+      "distance_km": 484.96,
+      "kind": "Recycling",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9716,77.5946"
+    },
+    {
+      "name": "Green NGO Circular Hub",
+      "address": "Community NGO Collection Center",
+      "distance_km": 485.87,
+      "kind": "NGO",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9651,77.5854"
+    }
+  ],
+  "collection_schedule_options": [
+    {
+      "title": "Book Regular Pickup",
+      "description": "Bundle this item with the next municipal segregated collection round.",
+      "eta": "Within 24 hours",
+      "suitable_for": "Recyclable and organic streams"
+    },
+    {
+      "title": "Schedule Hazardous Drop-Off",
+      "description": "Reserve a supervised slot for e-waste, batteries, and chemical containers.",
+      "eta": "Next available weekend slot",
+      "suitable_for": "Hazardous materials"
+    },
+    {
+      "title": "Report Illegal Dumping",
+      "description": "Escalate unmanaged dumping spots to civic teams for clean-up.",
+      "eta": "Escalation logged instantly",
+      "suitable_for": "Community reporting"
+    }
+  ],
+  "gamification": {
+    "eco_points": 224,
+    "eco_score": 77,
+    "badge": "Green Warrior",
+    "leaderboard_rank": 23,
+    "next_badge": "Eco Hero"
+  },
+  "community_impact": {
+    "waste_saved_from_landfill_kg": 5.14,
+    "plastic_recycled_kg": 2.27,
+    "carbon_reduction_kg": 0.86,
+    "households_participating": 128
+  },
+  "education_module": {
+    "title": "School / College Awareness Mode",
+    "audience": "Students and first-time recyclers",
+    "summary": "Simple environmental explanations, decomposition awareness, and a quick quiz make the platform useful for workshops and campus campaigns.",
+    "quiz": {
+      "question": "How long can food waste remain in the environment?",
+      "options": [
+        "A few days",
+        "2-6 weeks",
+        "1 week"
+      ],
+      "answer": "2-6 weeks",
+      "explainer": "Decomposition time is a strong awareness tool for encouraging correct segregation behavior."
+    }
+  },
+  "model_status": "fallback-active",
+  "model_source": "deterministic-heuristic-fallback",
+  "confidence_note": "Inference is deterministic: fixed seeds, fixed preprocessing, inference-only execution, and no random augmentation during prediction.",
+  "debug": {
+    "file_name": "ggggggg.jpg",
+    "file_size_bytes": 620546,
+    "file_hash": "301d78ab8d771241cb438100c0cfdbfa1c2a5ffa2034cd1b4e9b02ca511388c9",
+    "normalized_image_hash": "cc54ff0cc239d669d7f23f99bf3fdc622c7ed72c81bf7102bf85b350fd5ac1cc",
+    "model_fingerprint": "no-model",
+    "duplicate_upload": true,
+    "previous_prediction_count": 2,
+    "image_mode_before_resize": "RGB",
+    "image_size_before_resize": [
+      948,
+      533
+    ],
+    "image_size_after_resize": [
+      224,
+      224
+    ],
+    "normalization_mode": "zero_to_one",
+    "raw_probabilities": [
+      0.31071,
+      0.233601,
+      0.280489,
+      0.1752
+    ],
+    "class_to_index": {
+      "recyclable": 0,
+      "non-recyclable": 1,
+      "organic": 2,
+      "hazardous": 3
+    }
+  },
+  "diagnostics": {
+    "confusion_matrix_available": false,
+    "evaluation_note": "Confusion-matrix style evaluation artifacts were not found in the runtime package. Export validation metrics during training for model-quality analysis.",
+    "retraining_recommendations": [
+      "Use a more balanced dataset across all waste classes.",
+      "Clean mislabeled samples and verify class folders carefully.",
+      "Collect more images per class from varied lighting and backgrounds.",
+      "Keep class distribution consistent between training, validation, and test sets.",
+      "Use the exact same resize and normalization pipeline during training and inference."
+    ]
+  },
+  "generated_at": "2026-04-14T12:45:15.095965+00:00",
+  "note": "No trained MobileNetV2 model file was found. EcoVision is using a deterministic fallback classifier plus deterministic multi-object heuristics. For stronger accuracy, add a trained model."
+}

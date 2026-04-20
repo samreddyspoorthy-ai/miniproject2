@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open Frontend in Browser",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "open",
+      "args": [
+        "http://127.0.0.1:5173/"
+      ]
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Launch EcoVision App",
+      "preLaunchTask": "Run Full Stack",
+      "configurations": [
+        "Open Frontend in Browser"
+      ]
+    }
+  ]
+}

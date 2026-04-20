@@ -1,0 +1,84 @@
+{
+  "image_id": "2a9d90d8014b8c29a05f7675.jpg",
+  "cached_image_url": "/cache/2a9d90d8014b8c29a05f7675.jpg",
+  "predicted_class": "plastic",
+  "waste_category": "Recyclable",
+  "confidence_score": 0.16,
+  "confidence_label": "Needs review",
+  "top_3_predictions": [
+    {
+      "label": "plastic",
+      "score": 0.16,
+      "category": "Recyclable",
+      "class_index": 0
+    },
+    {
+      "label": "paper",
+      "score": 0.13,
+      "category": "Recyclable",
+      "class_index": 3
+    },
+    {
+      "label": "metal",
+      "score": 0.11,
+      "category": "Recyclable",
+      "class_index": 4
+    }
+  ],
+  "recycling_suggestion": {
+    "title": "Plastic recovery",
+    "description": "Empty, rinse, and dry the plastic item before placing it in the recyclable bin."
+  },
+  "awareness_tip": {
+    "title": "Why this matters",
+    "description": "Clean recyclable sorting reduces contamination and helps materials re-enter the circular economy."
+  },
+  "system_goal": "Reduce human effort in waste segregation while providing recycling guidance and awareness for smarter sustainable waste management.",
+  "model_name": "MobileNetV2 Waste Classifier",
+  "model_status": "fallback-active",
+  "model_source": "deterministic-mobilenetv2-fallback",
+  "confidence_note": "Inference is deterministic with fixed seeds, RGB conversion, MobileNetV2-style normalization, and no augmentation during prediction.",
+  "debug": {
+    "file_name": "oooo.jpg",
+    "file_hash": "91e8be48431a66babe6997159b8abf6141cb537d82b1cc1efcad225799198859",
+    "normalized_image_hash": "2a9d90d8014b8c29a05f7675dbb64a6a181a67a16b5b58b198ffdeec14e76fd4",
+    "model_fingerprint": "no-model",
+    "image_mode": "RGB",
+    "original_size": [
+      618,
+      350
+    ],
+    "processed_size": [
+      224,
+      224
+    ],
+    "normalization_mode": "minus_one_to_one",
+    "deterministic": true,
+    "augmentation_used": false,
+    "rgb_converted": true,
+    "class_to_index": {
+      "plastic": 0,
+      "glass": 1,
+      "food": 2,
+      "paper": 3,
+      "metal": 4,
+      "textile": 5,
+      "battery": 6,
+      "e-waste": 7,
+      "medical": 8,
+      "mixed waste": 9
+    },
+    "raw_probabilities": [
+      0.157892,
+      0.106773,
+      0.078091,
+      0.129158,
+      0.109691,
+      0.090909,
+      0.084962,
+      0.076047,
+      0.081935,
+      0.084543
+    ]
+  }
+}

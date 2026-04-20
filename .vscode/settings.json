@@ -1,0 +1,13 @@
+{
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/__pycache__": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/ecovision-ai-nexus/backend/.venv/bin/python",
+  "editor.formatOnSave": true
+}

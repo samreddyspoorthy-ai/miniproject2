@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Frontend: Vite Dev",
+      "type": "shell",
+      "command": "npm run dev -- --host 127.0.0.1",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*vite.*building.*|.*npm run dev.*",
+          "endsPattern": ".*Local:.*127\\.0\\.0\\.1:5173.*"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "app"
+      }
+    },
+    {
+      "label": "Backend: FastAPI Dev",
+      "type": "shell",
+      "command": "./.venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8000",
+      "options": {
+        "cwd": "${workspaceFolder}/ecovision-ai-nexus/backend"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*uvicorn.*|.*Started server process.*",
+          "endsPattern": ".*Uvicorn running on http://127\\.0\\.0\\.1:8000.*"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "app"
+      }
+    },
+    {
+      "label": "Run Full Stack",
+      "dependsOn": [
+        "Backend: FastAPI Dev",
+        "Frontend: Vite Dev"
+      ],
+      "dependsOrder": "parallel"
+    }
+  ]
+}

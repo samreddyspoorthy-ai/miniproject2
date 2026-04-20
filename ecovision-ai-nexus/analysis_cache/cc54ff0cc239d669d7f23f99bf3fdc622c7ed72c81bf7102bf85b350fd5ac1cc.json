@@ -1,0 +1,300 @@
+{
+  "image_id": "cc54ff0cc239d669d7f23f99.jpg",
+  "image_hash": "cc54ff0cc239d669d7f23f99bf3fdc622c7ed72c81bf7102bf85b350fd5ac1cc",
+  "cached_image_url": "/cache/cc54ff0cc239d669d7f23f99.jpg",
+  "image_width": 948,
+  "image_height": 533,
+  "primary_category": "organic",
+  "primary_item_label": "food waste",
+  "confidence_score": 0.94,
+  "confidence_note": "Confidence is deterministic for the same uploaded pixels and is based on stable visual features such as shape, brightness, color bias, and texture. Exact real-world accuracy still requires a trained detector.",
+  "detections": [
+    {
+      "label": "food waste",
+      "category": "organic",
+      "confidence": 0.94,
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 409,
+        "height": 533
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 295.3,
+      "estimated_volume_ml": 798.0,
+      "carbon_impact_kg_co2e": 0.032,
+      "carbon_saved_if_recycled_kg": 0.018,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "paper/cardboard",
+      "category": "recyclable",
+      "confidence": 0.86,
+      "bounding_box": {
+        "x": 369,
+        "y": 11,
+        "width": 579,
+        "height": 444
+      },
+      "color": "#2dd4bf",
+      "estimated_weight_g": 54.7,
+      "estimated_volume_ml": 1710.0,
+      "carbon_impact_kg_co2e": 0.004,
+      "carbon_saved_if_recycled_kg": 0.006,
+      "decomposition_time": "2-5 months",
+      "damage_score": 38,
+      "disposal_tip": "Keep dry and flatten before recycling."
+    },
+    {
+      "label": "paper/cardboard",
+      "category": "recyclable",
+      "confidence": 0.8068,
+      "bounding_box": {
+        "x": 372,
+        "y": 290,
+        "width": 391,
+        "height": 243
+      },
+      "color": "#2dd4bf",
+      "estimated_weight_g": 52.3,
+      "estimated_volume_ml": 1635.3,
+      "carbon_impact_kg_co2e": 0.004,
+      "carbon_saved_if_recycled_kg": 0.006,
+      "decomposition_time": "2-5 months",
+      "damage_score": 38,
+      "disposal_tip": "Keep dry and flatten before recycling."
+    },
+    {
+      "label": "plastic wrapper",
+      "category": "non-recyclable",
+      "confidence": 0.6283,
+      "bounding_box": {
+        "x": 290,
+        "y": 46,
+        "width": 208,
+        "height": 237
+      },
+      "color": "#fb7185",
+      "estimated_weight_g": 3.8,
+      "estimated_volume_ml": 255.1,
+      "carbon_impact_kg_co2e": 0.001,
+      "carbon_saved_if_recycled_kg": 0.0,
+      "decomposition_time": "100-500 years",
+      "damage_score": 74,
+      "disposal_tip": "Seal and bin separately unless your city accepts soft plastics."
+    },
+    {
+      "label": "plastic wrapper",
+      "category": "non-recyclable",
+      "confidence": 0.6243,
+      "bounding_box": {
+        "x": 689,
+        "y": 34,
+        "width": 211,
+        "height": 220
+      },
+      "color": "#fb7185",
+      "estimated_weight_g": 3.7,
+      "estimated_volume_ml": 243.7,
+      "carbon_impact_kg_co2e": 0.001,
+      "carbon_saved_if_recycled_kg": 0.0,
+      "decomposition_time": "100-500 years",
+      "damage_score": 74,
+      "disposal_tip": "Seal and bin separately unless your city accepts soft plastics."
+    }
+  ],
+  "item_counts": [
+    {
+      "label": "paper/cardboard",
+      "count": 2,
+      "category": "recyclable"
+    },
+    {
+      "label": "plastic wrapper",
+      "count": 2,
+      "category": "non-recyclable"
+    },
+    {
+      "label": "food waste",
+      "count": 1,
+      "category": "organic"
+    }
+  ],
+  "total_detected_items": 5,
+  "recycling_suggestions": [
+    {
+      "title": "Compost Separately",
+      "instruction": "Move food scraps and yard waste into a green bin or compost container.",
+      "impact": "Organic diversion reduces methane emissions from landfill disposal."
+    },
+    {
+      "title": "Avoid Plastic Liners",
+      "instruction": "Use compostable liners only if your local facility accepts them.",
+      "impact": "Cuts contamination and improves compost quality."
+    }
+  ],
+  "weather": {
+    "temperature_c": 27.0,
+    "weather_code": 0,
+    "wind_speed_kph": 11.0,
+    "impact_note": "Current weather is relatively stable, making this a good time to sort waste accurately.",
+    "latitude": 17.23650462904922,
+    "longitude": 78.54035539244491,
+    "source": "Open-Meteo (fallback)"
+  },
+  "weight_estimate": {
+    "total_weight_g": 409.8,
+    "total_volume_ml": 4642.1,
+    "method": "Bounding-box area scaled against an assumed smart-bin camera field of view.",
+    "reference_note": "For production accuracy, calibrate against a known reference marker or bin geometry."
+  },
+  "environmental_metrics": {
+    "decomposition_time": "2-6 weeks",
+    "damage_score": 74,
+    "carbon_impact_kg_co2e": 0.042,
+    "carbon_saved_if_recycled_kg": 0.03,
+    "methane_risk": "High if wet waste is landfilled",
+    "circularity_score": 28
+  },
+  "risk_assessment": {
+    "level": "Low",
+    "score": 56,
+    "note": "Low direct toxicity, but quick handling reduces odor and methane formation."
+  },
+  "lifecycle": [
+    {
+      "title": "Waste",
+      "description": "Item enters the segregation pipeline at source.",
+      "accent": "#16a34a"
+    },
+    {
+      "title": "Collection",
+      "description": "Municipal or community teams collect separated streams.",
+      "accent": "#0ea5e9"
+    },
+    {
+      "title": "Sorting",
+      "description": "AI detection and human checks improve stream purity.",
+      "accent": "#f59e0b"
+    },
+    {
+      "title": "Processing",
+      "description": "Materials are cleaned, shredded, composted, or stabilized.",
+      "accent": "#f97316"
+    },
+    {
+      "title": "Reuse",
+      "description": "Recovered material re-enters the circular economy.",
+      "accent": "#10b981"
+    }
+  ],
+  "government_initiatives": [
+    {
+      "title": "Swachh Bharat Mission",
+      "value": "Urban cleanliness and waste management drive",
+      "note": "Promotes source segregation, door-to-door collection, and waste processing adoption.",
+      "source": "Government of India"
+    },
+    {
+      "title": "MoHUA Focus",
+      "value": "Segregation at source",
+      "note": "Municipal solid waste programs prioritize segregated collection and recovery infrastructure.",
+      "source": "Ministry of Housing and Urban Affairs"
+    }
+  ],
+  "city_statistics": [
+    {
+      "title": "Smart City Readiness",
+      "value": "76%",
+      "note": "Illustrative readiness score for digital waste tracking and citizen participation features.",
+      "source": "EcoVision demo analytics"
+    },
+    {
+      "title": "Cleanliness Benchmark",
+      "value": "Top-20 aspirational target",
+      "note": "Cities improve ranking by increasing segregation, recycling, and citizen reporting.",
+      "source": "EcoVision policy module"
+    }
+  ],
+  "nearby_centers": [
+    {
+      "name": "Hazardous Drop-Off Point",
+      "address": "Municipal Hazardous Collection Desk",
+      "distance_km": 484.11,
+      "kind": "Hazardous",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9784,77.6001"
+    },
+    {
+      "name": "Civic Dry Waste Center",
+      "address": "Ward Resource Recovery Hub",
+      "distance_km": 484.98,
+      "kind": "Recycling",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9716,77.5946"
+    },
+    {
+      "name": "Green NGO Circular Hub",
+      "address": "Community NGO Collection Center",
+      "distance_km": 485.89,
+      "kind": "NGO",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9651,77.5854"
+    }
+  ],
+  "collection_schedule_options": [
+    {
+      "title": "Book Regular Pickup",
+      "description": "Bundle this item with the next municipal segregated collection round.",
+      "eta": "Within 24 hours",
+      "suitable_for": "Recyclable and organic streams"
+    },
+    {
+      "title": "Schedule Hazardous Drop-Off",
+      "description": "Reserve a supervised slot for e-waste, batteries, and chemical containers.",
+      "eta": "Next available weekend slot",
+      "suitable_for": "Hazardous materials"
+    },
+    {
+      "title": "Report Illegal Dumping",
+      "description": "Escalate unmanaged dumping spots to civic teams for clean-up.",
+      "eta": "Escalation logged instantly",
+      "suitable_for": "Community reporting"
+    }
+  ],
+  "gamification": {
+    "eco_points": 107,
+    "eco_score": 28,
+    "badge": "Eco Starter",
+    "leaderboard_rank": 72,
+    "next_badge": "Green Warrior"
+  },
+  "community_impact": {
+    "waste_saved_from_landfill_kg": 1.76,
+    "plastic_recycled_kg": 0.78,
+    "carbon_reduction_kg": 0.4,
+    "households_participating": 128
+  },
+  "education_module": {
+    "title": "School / College Awareness Mode",
+    "audience": "Students and first-time recyclers",
+    "summary": "Simple environmental explanations, decomposition awareness, and a quick quiz make the platform useful for workshops and campus campaigns.",
+    "quiz": {
+      "question": "Which bin should most food scraps go into?",
+      "options": [
+        "Dry recycling",
+        "Compost or wet waste",
+        "Hazardous waste"
+      ],
+      "answer": "Compost or wet waste",
+      "explainer": "Organic waste breaks down quickly and should be diverted from landfill when composting is available."
+    }
+  },
+  "model_status": "fallback-active",
+  "model_source": "heuristic-fallback",
+  "detection_mode": "heuristic-multi-object",
+  "summary": "Detected 5 item(s), led by food waste, in the organic stream with 94.0% confidence. Estimated carbon impact is 0.042 kg CO2e.",
+  "generated_at": "2026-04-14T12:20:43.778583+00:00",
+  "latitude": 17.23650462904922,
+  "longitude": 78.54035539244491,
+  "note": "No trained local waste detector was found, so EcoVision is using a deterministic multi-object heuristic fallback. For production-grade accuracy, add a trained YOLOv8 model or MobileNetV2 TFLite model."
+}

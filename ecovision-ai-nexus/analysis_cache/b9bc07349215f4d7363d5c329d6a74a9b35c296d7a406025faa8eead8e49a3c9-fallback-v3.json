@@ -1,0 +1,84 @@
+{
+  "image_id": "b9bc07349215f4d7363d5c32.jpg",
+  "cached_image_url": "/cache/b9bc07349215f4d7363d5c32.jpg",
+  "predicted_class": "glass",
+  "waste_category": "Recyclable",
+  "confidence_score": 0.37,
+  "confidence_label": "Needs review",
+  "top_3_predictions": [
+    {
+      "label": "glass",
+      "score": 0.37,
+      "category": "Recyclable",
+      "class_index": 1
+    },
+    {
+      "label": "metal",
+      "score": 0.12,
+      "category": "Recyclable",
+      "class_index": 4
+    },
+    {
+      "label": "battery",
+      "score": 0.08,
+      "category": "Hazardous",
+      "class_index": 6
+    }
+  ],
+  "recycling_suggestion": {
+    "title": "Glass recovery",
+    "description": "Rinse the glass item, remove obvious residue, and place it in the glass or mixed recycling stream."
+  },
+  "awareness_tip": {
+    "title": "Why this matters",
+    "description": "Clean recyclable sorting reduces contamination and helps materials re-enter the circular economy."
+  },
+  "system_goal": "Reduce human effort in waste segregation while providing recycling guidance and awareness for smarter sustainable waste management.",
+  "model_name": "MobileNetV2 Waste Classifier",
+  "model_status": "fallback-active",
+  "model_source": "deterministic-mobilenetv2-fallback",
+  "confidence_note": "Inference is deterministic with fixed seeds, RGB conversion, MobileNetV2-style normalization, and no augmentation during prediction.",
+  "debug": {
+    "file_name": "ss.webp",
+    "file_hash": "ccf8ba0376a9fc773cd819ca60bff9dc870d04ddc9383882e3142b7698d84501",
+    "normalized_image_hash": "b9bc07349215f4d7363d5c329d6a74a9b35c296d7a406025faa8eead8e49a3c9",
+    "model_fingerprint": "fallback-v3",
+    "image_mode": "RGB",
+    "original_size": [
+      1200,
+      720
+    ],
+    "processed_size": [
+      224,
+      224
+    ],
+    "normalization_mode": "minus_one_to_one",
+    "deterministic": true,
+    "augmentation_used": false,
+    "rgb_converted": true,
+    "class_to_index": {
+      "plastic": 0,
+      "glass": 1,
+      "food": 2,
+      "paper": 3,
+      "metal": 4,
+      "textile": 5,
+      "battery": 6,
+      "e-waste": 7,
+      "medical": 8,
+      "mixed waste": 9
+    },
+    "raw_probabilities": [
+      0.036067,
+      0.36861,
+      0.064951,
+      0.070878,
+      0.115602,
+      0.071233,
+      0.082031,
+      0.057767,
+      0.055928,
+      0.076932
+    ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "image_id": "764659bc91967d8c23f68d51.jpg",
+  "cached_image_url": "/cache/764659bc91967d8c23f68d51.jpg",
+  "predicted_class": "food",
+  "waste_category": "Organic",
+  "confidence_score": 0.22,
+  "confidence_label": "Needs review",
+  "top_3_predictions": [
+    {
+      "label": "food",
+      "score": 0.22,
+      "category": "Organic",
+      "class_index": 2
+    },
+    {
+      "label": "glass",
+      "score": 0.12,
+      "category": "Recyclable",
+      "class_index": 1
+    },
+    {
+      "label": "metal",
+      "score": 0.11,
+      "category": "Recyclable",
+      "class_index": 4
+    }
+  ],
+  "detections": [
+    {
+      "label": "glass",
+      "category": "recyclable",
+      "confidence": 0.42,
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 512,
+        "height": 188
+      },
+      "color": "#0ea5e9",
+      "estimated_weight_g": 330.0,
+      "estimated_volume_ml": 1500.0,
+      "carbon_impact_kg_co2e": 0.102,
+      "carbon_saved_if_recycled_kg": 0.073,
+      "decomposition_time": "1 million years",
+      "damage_score": 70,
+      "disposal_tip": "Separate by color if possible and handle carefully."
+    },
+    {
+      "label": "food",
+      "category": "organic",
+      "confidence": 0.42,
+      "bounding_box": {
+        "x": 0,
+        "y": 357,
+        "width": 138,
+        "height": 140
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 134.3,
+      "estimated_volume_ml": 362.9,
+      "carbon_impact_kg_co2e": 0.015,
+      "carbon_saved_if_recycled_kg": 0.008,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "food",
+      "category": "organic",
+      "confidence": 0.42,
+      "bounding_box": {
+        "x": 291,
+        "y": 400,
+        "width": 138,
+        "height": 112
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 115.2,
+      "estimated_volume_ml": 311.4,
+      "carbon_impact_kg_co2e": 0.013,
+      "carbon_saved_if_recycled_kg": 0.007,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "glass",
+      "category": "recyclable",
+      "confidence": 0.42,
+      "bounding_box": {
+        "x": 399,
+        "y": 404,
+        "width": 113,
+        "height": 79
+      },
+      "color": "#0ea5e9",
+      "estimated_weight_g": 88.1,
+      "estimated_volume_ml": 400.3,
+      "carbon_impact_kg_co2e": 0.027,
+      "carbon_saved_if_recycled_kg": 0.019,
+      "decomposition_time": "1 million years",
+      "damage_score": 70,
+      "disposal_tip": "Separate by color if possible and handle carefully."
+    },
+    {
+      "label": "food",
+      "category": "organic",
+      "confidence": 0.42,
+      "bounding_box": {
+        "x": 182,
+        "y": 204,
+        "width": 73,
+        "height": 100
+      },
+      "color": "#84cc16",
+      "estimated_weight_g": 74.9,
+      "estimated_volume_ml": 202.5,
+      "carbon_impact_kg_co2e": 0.008,
+      "carbon_saved_if_recycled_kg": 0.004,
+      "decomposition_time": "2-6 weeks",
+      "damage_score": 28,
+      "disposal_tip": "Move to compost or municipal wet waste collection quickly."
+    },
+    {
+      "label": "textile",
+      "category": "non recyclable",
+      "confidence": 0.42,
+      "bounding_box": {
+        "x": 135,
+        "y": 442,
+        "width": 124,
+        "height": 70
+      },
+      "color": "#fb7185",
+      "estimated_weight_g": 1.9,
+      "estimated_volume_ml": 126.2,
+      "carbon_impact_kg_co2e": 0.0,
+      "carbon_saved_if_recycled_kg": 0.0,
+      "decomposition_time": "100-500 years",
+      "damage_score": 74,
+      "disposal_tip": "Seal and bin separately unless your city accepts soft plastics."
+    }
+  ],
+  "total_detected_items": 6,
+  "item_counts": [
+    {
+      "label": "food",
+      "count": 3,
+      "category": "organic"
+    },
+    {
+      "label": "glass",
+      "count": 2,
+      "category": "recyclable"
+    },
+    {
+      "label": "textile",
+      "count": 1,
+      "category": "non recyclable"
+    }
+  ],
+  "weight_estimate": {
+    "total_weight_g": 744.4,
+    "total_volume_ml": 2903.3,
+    "method": "Bounding-box area scaled against an assumed smart-bin camera field of view.",
+    "reference_note": "For production accuracy, calibrate against a known reference marker or bin geometry."
+  },
+  "environmental_metrics": {
+    "decomposition_time": "2-6 weeks",
+    "damage_score": 74,
+    "carbon_impact_kg_co2e": 0.165,
+    "carbon_saved_if_recycled_kg": 0.111,
+    "methane_risk": "High if wet waste is landfilled",
+    "circularity_score": 34
+  },
+  "risk_assessment": {
+    "level": "Low",
+    "score": 56,
+    "note": "Low direct toxicity, but quick handling reduces odor and methane formation."
+  },
+  "recycling_suggestion": {
+    "title": "Organic composting",
+    "description": "Move food waste into a compost or wet-waste bin to reduce landfill methane emissions."
+  },
+  "awareness_tip": {
+    "title": "Climate impact",
+    "description": "Separating food waste helps cities reduce methane emissions and improve compost production."
+  },
+  "lifecycle": [
+    {
+      "title": "Waste",
+      "description": "Item enters the segregation pipeline at source.",
+      "accent": "#16a34a"
+    },
+    {
+      "title": "Collection",
+      "description": "Municipal or community teams collect separated streams.",
+      "accent": "#0ea5e9"
+    },
+    {
+      "title": "Sorting",
+      "description": "AI detection and human checks improve stream purity.",
+      "accent": "#f59e0b"
+    },
+    {
+      "title": "Processing",
+      "description": "Materials are cleaned, shredded, composted, or stabilized.",
+      "accent": "#f97316"
+    },
+    {
+      "title": "Reuse",
+      "description": "Recovered material re-enters the circular economy.",
+      "accent": "#10b981"
+    }
+  ],
+  "government_initiatives": [
+    {
+      "title": "Swachh Bharat Mission",
+      "value": "Urban cleanliness and waste management drive",
+      "note": "Promotes source segregation, door-to-door collection, and waste processing adoption.",
+      "source": "Government of India"
+    },
+    {
+      "title": "MoHUA Focus",
+      "value": "Segregation at source",
+      "note": "Municipal solid waste programs prioritize segregated collection and recovery infrastructure.",
+      "source": "Ministry of Housing and Urban Affairs"
+    }
+  ],
+  "city_statistics": [
+    {
+      "title": "Smart City Readiness",
+      "value": "76%",
+      "note": "Illustrative readiness score for digital waste tracking and citizen participation features.",
+      "source": "EcoVision demo analytics"
+    },
+    {
+      "title": "Cleanliness Benchmark",
+      "value": "Top-20 aspirational target",
+      "note": "Cities improve ranking by increasing segregation, recycling, and citizen reporting.",
+      "source": "EcoVision policy module"
+    }
+  ],
+  "nearby_centers": [
+    {
+      "name": "Greater Hyderabad Hazardous Drop-Off Point",
+      "address": "Municipal Hazardous Collection Desk, Secunderabad",
+      "distance_km": 6.23,
+      "kind": "Hazardous",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=17.4399,78.4983"
+    },
+    {
+      "name": "Hyderabad Dry Waste Collection Center",
+      "address": "Ward Resource Recovery Hub, Banjara Hills",
+      "distance_km": 6.36,
+      "kind": "Recycling",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=17.4126,78.4342"
+    },
+    {
+      "name": "Green Hyderabad NGO Circular Hub",
+      "address": "Community NGO Collection Center, Hitec City",
+      "distance_km": 13.62,
+      "kind": "NGO",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=17.4474,78.3762"
+    }
+  ],
+  "collection_schedule_options": [
+    {
+      "title": "Book Regular Pickup",
+      "description": "Bundle this item with the next municipal segregated collection round.",
+      "eta": "Within 24 hours",
+      "suitable_for": "Recyclable and organic streams"
+    },
+    {
+      "title": "Schedule Hazardous Drop-Off",
+      "description": "Reserve a supervised slot for e-waste, batteries, and chemical containers.",
+      "eta": "Next available weekend slot",
+      "suitable_for": "Hazardous materials"
+    },
+    {
+      "title": "Report Illegal Dumping",
+      "description": "Escalate unmanaged dumping spots to civic teams for clean-up.",
+      "eta": "Escalation logged instantly",
+      "suitable_for": "Community reporting"
+    }
+  ],
+  "gamification": {
+    "eco_points": 129,
+    "eco_score": 34,
+    "badge": "Eco Starter",
+    "leaderboard_rank": 66,
+    "next_badge": "Green Warrior"
+  },
+  "community_impact": {
+    "waste_saved_from_landfill_kg": 3.2,
+    "plastic_recycled_kg": 1.41,
+    "carbon_reduction_kg": 1.33,
+    "households_participating": 128
+  },
+  "education_module": {
+    "title": "School / College Awareness Mode",
+    "audience": "Students and first-time recyclers",
+    "summary": "Simple environmental explanations, decomposition awareness, and a quick quiz make the platform useful for workshops and campus campaigns.",
+    "quiz": {
+      "question": "Which bin should most food scraps go into?",
+      "options": [
+        "Dry recycling",
+        "Compost or wet waste",
+        "Hazardous waste"
+      ],
+      "answer": "Compost or wet waste",
+      "explainer": "Organic waste breaks down quickly and should be diverted from landfill when composting is available."
+    }
+  },
+  "system_goal": "Reduce human effort in waste segregation while providing recycling guidance and awareness for smarter sustainable waste management.",
+  "model_name": "MobileNetV2 Waste Classifier",
+  "model_status": "fallback-active",
+  "model_source": "deterministic-mobilenetv2-fallback",
+  "confidence_note": "Inference is deterministic with fixed seeds, RGB conversion, MobileNetV2-style normalization, and no augmentation during prediction.",
+  "debug": {
+    "file_name": "dogg.webp",
+    "file_hash": "19382dec8fa0ed0ba0fd7a69bef8b747163fe19c68626ac98c80b6adea0d5170",
+    "normalized_image_hash": "764659bc91967d8c23f68d5182f8b5f7ce603387a91a94ab8368609ba7a91181",
+    "model_fingerprint": "fallback-v4",
+    "image_mode": "RGB",
+    "original_size": [
+      512,
+      512
+    ],
+    "processed_size": [
+      224,
+      224
+    ],
+    "normalization_mode": "minus_one_to_one",
+    "deterministic": true,
+    "augmentation_used": false,
+    "rgb_converted": true,
+    "class_to_index": {
+      "plastic": 0,
+      "glass": 1,
+      "food": 2,
+      "paper": 3,
+      "metal": 4,
+      "textile": 5,
+      "battery": 6,
+      "e-waste": 7,
+      "medical": 8,
+      "mixed waste": 9
+    },
+    "raw_probabilities": [
+      0.08052,
+      0.116323,
+      0.215479,
+      0.094628,
+      0.106736,
+      0.101019,
+      0.073835,
+      0.062564,
+      0.065776,
+      0.08312
+    ]
+  }
+}

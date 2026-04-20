@@ -1,0 +1,309 @@
+{
+  "image_id": "e629b9de7bbd8402872c2231.jpg",
+  "cached_image_url": "/cache/e629b9de7bbd8402872c2231.jpg",
+  "predicted_class": "recyclable",
+  "confidence_score": 0.44,
+  "top_3_predictions": [
+    {
+      "label": "recyclable",
+      "score": 0.44,
+      "class_index": 0
+    },
+    {
+      "label": "non-recyclable",
+      "score": 0.2,
+      "class_index": 1
+    },
+    {
+      "label": "organic",
+      "score": 0.2,
+      "class_index": 2
+    }
+  ],
+  "primary_category": "recyclable",
+  "total_detected_items": 3,
+  "detections": [
+    {
+      "label": "paper/cardboard",
+      "category": "recyclable",
+      "confidence": 0.67,
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 900
+      },
+      "color": "#22c55e",
+      "estimated_weight_g": 54.7,
+      "estimated_volume_ml": 1710.0,
+      "carbon_impact_kg_co2e": 0.004,
+      "carbon_saved_if_recycled_kg": 0.006,
+      "decomposition_time": "2-5 months",
+      "damage_score": 38,
+      "disposal_tip": "Keep dry and flatten before recycling."
+    },
+    {
+      "label": "paper/cardboard",
+      "category": "recyclable",
+      "confidence": 0.64,
+      "bounding_box": {
+        "x": 89,
+        "y": 131,
+        "width": 1442,
+        "height": 708
+      },
+      "color": "#22c55e",
+      "estimated_weight_g": 54.7,
+      "estimated_volume_ml": 1710.0,
+      "carbon_impact_kg_co2e": 0.004,
+      "carbon_saved_if_recycled_kg": 0.006,
+      "decomposition_time": "2-5 months",
+      "damage_score": 38,
+      "disposal_tip": "Keep dry and flatten before recycling."
+    },
+    {
+      "label": "plastic wrapper",
+      "category": "non-recyclable",
+      "confidence": 0.58,
+      "bounding_box": {
+        "x": 841,
+        "y": 271,
+        "width": 348,
+        "height": 108
+      },
+      "color": "#fb7185",
+      "estimated_weight_g": 1.7,
+      "estimated_volume_ml": 112.2,
+      "carbon_impact_kg_co2e": 0.0,
+      "carbon_saved_if_recycled_kg": 0.0,
+      "decomposition_time": "100-500 years",
+      "damage_score": 74,
+      "disposal_tip": "Seal and bin separately unless your city accepts soft plastics."
+    }
+  ],
+  "item_counts": [
+    {
+      "label": "paper/cardboard",
+      "count": 2,
+      "category": "recyclable"
+    },
+    {
+      "label": "plastic wrapper",
+      "count": 1,
+      "category": "non-recyclable"
+    }
+  ],
+  "recycling_suggestions": [
+    {
+      "title": "Rinse Before Recycling",
+      "instruction": "Quickly rinse containers so residue does not contaminate the recycling stream.",
+      "impact": "Cleaner batches improve recycling yield and lower sorting losses."
+    },
+    {
+      "title": "Keep Materials Dry",
+      "instruction": "Store paper, cardboard, and plastics in a dry bin before collection.",
+      "impact": "Dry recyclables are more likely to be accepted by facilities."
+    }
+  ],
+  "weight_estimate": {
+    "total_weight_g": 111.1,
+    "total_volume_ml": 3532.2,
+    "method": "Bounding-box area scaled against an assumed smart-bin camera field of view.",
+    "reference_note": "For production accuracy, calibrate against a known reference marker or bin geometry."
+  },
+  "environmental_metrics": {
+    "decomposition_time": "2-5 months",
+    "damage_score": 74,
+    "carbon_impact_kg_co2e": 0.008,
+    "carbon_saved_if_recycled_kg": 0.012,
+    "methane_risk": "Moderate",
+    "circularity_score": 26
+  },
+  "risk_assessment": {
+    "level": "Low",
+    "score": 56,
+    "note": "Suitable for routine segregation with standard handling."
+  },
+  "weather": {
+    "temperature_c": 27.0,
+    "weather_code": 0,
+    "wind_speed_kph": 11.0,
+    "impact_note": "Current weather is relatively stable, making this a good time to sort waste accurately.",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "source": "Open-Meteo (fallback)"
+  },
+  "lifecycle": [
+    {
+      "title": "Waste",
+      "description": "Item enters the segregation pipeline at source.",
+      "accent": "#16a34a"
+    },
+    {
+      "title": "Collection",
+      "description": "Municipal or community teams collect separated streams.",
+      "accent": "#0ea5e9"
+    },
+    {
+      "title": "Sorting",
+      "description": "AI detection and human checks improve stream purity.",
+      "accent": "#f59e0b"
+    },
+    {
+      "title": "Processing",
+      "description": "Materials are cleaned, shredded, composted, or stabilized.",
+      "accent": "#f97316"
+    },
+    {
+      "title": "Reuse",
+      "description": "Recovered material re-enters the circular economy.",
+      "accent": "#10b981"
+    }
+  ],
+  "government_initiatives": [
+    {
+      "title": "Swachh Bharat Mission",
+      "value": "Urban cleanliness and waste management drive",
+      "note": "Promotes source segregation, door-to-door collection, and waste processing adoption.",
+      "source": "Government of India"
+    },
+    {
+      "title": "MoHUA Focus",
+      "value": "Segregation at source",
+      "note": "Municipal solid waste programs prioritize segregated collection and recovery infrastructure.",
+      "source": "Ministry of Housing and Urban Affairs"
+    }
+  ],
+  "city_statistics": [
+    {
+      "title": "Smart City Readiness",
+      "value": "76%",
+      "note": "Illustrative readiness score for digital waste tracking and citizen participation features.",
+      "source": "EcoVision demo analytics"
+    },
+    {
+      "title": "Cleanliness Benchmark",
+      "value": "Top-20 aspirational target",
+      "note": "Cities improve ranking by increasing segregation, recycling, and citizen reporting.",
+      "source": "EcoVision policy module"
+    }
+  ],
+  "nearby_centers": [
+    {
+      "name": "Civic Dry Waste Center",
+      "address": "Ward Resource Recovery Hub",
+      "distance_km": 0.0,
+      "kind": "Recycling",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9716,77.5946"
+    },
+    {
+      "name": "Hazardous Drop-Off Point",
+      "address": "Municipal Hazardous Collection Desk",
+      "distance_km": 0.96,
+      "kind": "Hazardous",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9784,77.6001"
+    },
+    {
+      "name": "Green NGO Circular Hub",
+      "address": "Community NGO Collection Center",
+      "distance_km": 1.23,
+      "kind": "NGO",
+      "map_url": "https://www.google.com/maps/search/?api=1&query=12.9651,77.5854"
+    }
+  ],
+  "collection_schedule_options": [
+    {
+      "title": "Book Regular Pickup",
+      "description": "Bundle this item with the next municipal segregated collection round.",
+      "eta": "Within 24 hours",
+      "suitable_for": "Recyclable and organic streams"
+    },
+    {
+      "title": "Schedule Hazardous Drop-Off",
+      "description": "Reserve a supervised slot for e-waste, batteries, and chemical containers.",
+      "eta": "Next available weekend slot",
+      "suitable_for": "Hazardous materials"
+    },
+    {
+      "title": "Report Illegal Dumping",
+      "description": "Escalate unmanaged dumping spots to civic teams for clean-up.",
+      "eta": "Escalation logged instantly",
+      "suitable_for": "Community reporting"
+    }
+  ],
+  "gamification": {
+    "eco_points": 86,
+    "eco_score": 26,
+    "badge": "Eco Starter",
+    "leaderboard_rank": 74,
+    "next_badge": "Green Warrior"
+  },
+  "community_impact": {
+    "waste_saved_from_landfill_kg": 0.48,
+    "plastic_recycled_kg": 0.21,
+    "carbon_reduction_kg": 0.4,
+    "households_participating": 128
+  },
+  "education_module": {
+    "title": "School / College Awareness Mode",
+    "audience": "Students and first-time recyclers",
+    "summary": "Simple environmental explanations, decomposition awareness, and a quick quiz make the platform useful for workshops and campus campaigns.",
+    "quiz": {
+      "question": "How long can paper/cardboard remain in the environment?",
+      "options": [
+        "A few days",
+        "2-5 months",
+        "1 week"
+      ],
+      "answer": "2-5 months",
+      "explainer": "Decomposition time is a strong awareness tool for encouraging correct segregation behavior."
+    }
+  },
+  "model_status": "fallback-active",
+  "model_source": "deterministic-heuristic-fallback",
+  "confidence_note": "Inference is deterministic: fixed seeds, fixed preprocessing, inference-only execution, and no random augmentation during prediction.",
+  "debug": {
+    "file_name": "use_case_diagram.png",
+    "file_size_bytes": 72072,
+    "file_hash": "aa12c04809fe0420bf20606bebaf4e04b673b7a488c7811bf77bfab62c94762f",
+    "normalized_image_hash": "e629b9de7bbd8402872c223192af11eb8bc788ddfefa6384754d35bc539d014a",
+    "model_fingerprint": "no-model",
+    "duplicate_upload": true,
+    "previous_prediction_count": 3,
+    "image_mode_before_resize": "RGB",
+    "image_size_before_resize": [
+      1600,
+      900
+    ],
+    "image_size_after_resize": [
+      224,
+      224
+    ],
+    "normalization_mode": "zero_to_one",
+    "raw_probabilities": [
+      0.437222,
+      0.20346,
+      0.195105,
+      0.164214
+    ],
+    "class_to_index": {
+      "recyclable": 0,
+      "non-recyclable": 1,
+      "organic": 2,
+      "hazardous": 3
+    }
+  },
+  "diagnostics": {
+    "confusion_matrix_available": false,
+    "evaluation_note": "Confusion-matrix style evaluation artifacts were not found in the runtime package. Export validation metrics during training for model-quality analysis.",
+    "retraining_recommendations": [
+      "Use a more balanced dataset across all waste classes.",
+      "Clean mislabeled samples and verify class folders carefully.",
+      "Collect more images per class from varied lighting and backgrounds.",
+      "Keep class distribution consistent between training, validation, and test sets.",
+      "Use the exact same resize and normalization pipeline during training and inference."
+    ]
+  },
+  "generated_at": "2026-04-14T12:44:08.927939+00:00",
+  "note": "No trained MobileNetV2 model file was found. EcoVision is using a deterministic fallback classifier plus deterministic multi-object heuristics. For stronger accuracy, add a trained model."
+}

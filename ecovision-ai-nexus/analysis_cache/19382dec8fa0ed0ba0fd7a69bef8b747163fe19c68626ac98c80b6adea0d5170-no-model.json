@@ -1,0 +1,70 @@
+{
+  "image_id": "764659bc91967d8c23f68d51.jpg",
+  "cached_image_url": "/cache/764659bc91967d8c23f68d51.jpg",
+  "predicted_class": "recyclable",
+  "confidence_score": 0.32,
+  "top_3_predictions": [
+    {
+      "label": "recyclable",
+      "score": 0.32,
+      "class_index": 0
+    },
+    {
+      "label": "non-recyclable",
+      "score": 0.24,
+      "class_index": 1
+    },
+    {
+      "label": "organic",
+      "score": 0.23,
+      "class_index": 2
+    }
+  ],
+  "model_status": "fallback-active",
+  "model_source": "deterministic-heuristic-fallback",
+  "confidence_note": "Inference is deterministic: fixed seeds, fixed preprocessing, inference-only execution, and no random augmentation during prediction.",
+  "debug": {
+    "file_name": "dogg.webp",
+    "file_size_bytes": 59914,
+    "file_hash": "19382dec8fa0ed0ba0fd7a69bef8b747163fe19c68626ac98c80b6adea0d5170",
+    "normalized_image_hash": "764659bc91967d8c23f68d5182f8b5f7ce603387a91a94ab8368609ba7a91181",
+    "model_fingerprint": "no-model",
+    "duplicate_upload": false,
+    "previous_prediction_count": 0,
+    "image_mode_before_resize": "RGB",
+    "image_size_before_resize": [
+      512,
+      512
+    ],
+    "image_size_after_resize": [
+      224,
+      224
+    ],
+    "normalization_mode": "zero_to_one",
+    "raw_probabilities": [
+      0.324426,
+      0.236617,
+      0.229419,
+      0.209538
+    ],
+    "class_to_index": {
+      "recyclable": 0,
+      "non-recyclable": 1,
+      "organic": 2,
+      "hazardous": 3
+    }
+  },
+  "diagnostics": {
+    "confusion_matrix_available": false,
+    "evaluation_note": "Confusion-matrix style evaluation artifacts were not found in the runtime package. If you have validation labels, compute confusion matrices offline after each training run.",
+    "retraining_recommendations": [
+      "Use a more balanced dataset across all waste classes.",
+      "Clean mislabeled samples and verify class folders carefully.",
+      "Collect more images per class from varied lighting and backgrounds.",
+      "Keep class distribution consistent between training, validation, and test sets.",
+      "Use the exact same resize and normalization pipeline during training and inference."
+    ]
+  },
+  "generated_at": "2026-04-14T12:37:16.973368+00:00",
+  "note": "No trained MobileNetV2 model file was found. The API now runs a deterministic fallback classifier for stability, but real accuracy still depends on a trained model."
+}

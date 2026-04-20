@@ -1,0 +1,488 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 8 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 2982 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+(EcoVision AI Nexus Viva Notes) Tj
+0 -15 Td () Tj
+0 -15 Td (1. Basic Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What is your project about?) Tj
+0 -15 Td (My project is an AI-powered smart waste management platform called EcoVision AI Nexus. It) Tj
+0 -15 Td (identifies waste from uploaded images or webcam input, classifies it into recyclable, non-) Tj
+0 -15 Td (recyclable, organic, or hazardous categories, and provides disposal guidance, environmental) Tj
+0 -15 Td (insights, nearby recycling support, and smart city features.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is the main objective of your project?) Tj
+0 -15 Td (The main objective is to reduce human effort in waste segregation and improve sustainable waste) Tj
+0 -15 Td (management using AI-based waste recognition, recycling guidance, environmental awareness, and) Tj
+0 -15 Td (smart city support modules.) Tj
+0 -15 Td () Tj
+0 -15 Td (Why did you choose this project?) Tj
+0 -15 Td (I chose this project because waste segregation is a major real-world problem. Improper waste) Tj
+0 -15 Td (disposal increases landfill burden, pollution, and health risks. I wanted to apply AI to solve a) Tj
+0 -15 Td (practical environmental and civic problem.) Tj
+0 -15 Td () Tj
+0 -15 Td (What problem are you trying to solve?) Tj
+0 -15 Td (The project solves incorrect waste segregation, lack of awareness about disposal methods, and) Tj
+0 -15 Td (difficulty in connecting users with the correct recycling or support systems. It also aims to) Tj
+0 -15 Td (improve decision-making for sustainable waste handling.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is smart city integration in your project?) Tj
+0 -15 Td (Smart city integration means the system goes beyond classification. It includes nearby recycling) Tj
+0 -15 Td (centers, NGO and government support points, waste collection scheduling, environmental metrics,) Tj
+0 -15 Td (AQI and weather interaction, municipal dashboards, and awareness tools that support modern city) Tj
+0 -15 Td (waste systems.) Tj
+0 -15 Td () Tj
+0 -15 Td (2. Algorithm & Model Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What algorithm are you using?) Tj
+0 -15 Td (The project is designed around MobileNetV2 for image-based waste classification. In the current) Tj
+0 -15 Td (running system, there is also a deterministic fallback mechanism when a trained MobileNetV2) Tj
+0 -15 Td (model file is not available.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is MobileNetV2?) Tj
+0 -15 Td (MobileNetV2 is a lightweight convolutional neural network designed for efficient image) Tj
+0 -15 Td (classification on mobile and edge devices. It is fast, compact, and suitable for real-time) Tj
+0 -15 Td (applications.) Tj
+0 -15 Td () Tj
+0 -15 Td (Why did you choose MobileNetV2?) Tj
+0 -15 Td (I chose MobileNetV2 because it provides a good balance between speed and accuracy. It is) Tj
+0 -15 Td (lightweight, suitable for deployment, and practical for webcam-based or smart-bin-style systems.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 2695 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+() Tj
+0 -15 Td (What is transfer learning?) Tj
+0 -15 Td (Transfer learning means using a model that was already trained on a large dataset and adapting) Tj
+0 -15 Td (it to a new task. In this project, MobileNetV2 can be fine-tuned for waste classification) Tj
+0 -15 Td (instead of training a CNN from scratch.) Tj
+0 -15 Td () Tj
+0 -15 Td (What type of AI model are you using?) Tj
+0 -15 Td (It is a deep learning image classification model based on CNN architecture, specifically) Tj
+0 -15 Td (MobileNetV2.) Tj
+0 -15 Td () Tj
+0 -15 Td (Is your model supervised or unsupervised?) Tj
+0 -15 Td (It is supervised learning because the model learns from labeled waste images.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is CNN and how does it work?) Tj
+0 -15 Td (CNN stands for Convolutional Neural Network. It extracts image features such as edges, textures,) Tj
+0 -15 Td (colors, and shapes through convolution layers, and then uses those learned features to classify) Tj
+0 -15 Td (the image into the correct class.) Tj
+0 -15 Td () Tj
+0 -15 Td (How does your model classify images?) Tj
+0 -15 Td (The image is uploaded or captured, converted to RGB, resized, normalized, and passed into the) Tj
+0 -15 Td (model. The model generates prediction probabilities for each class, and the class with the) Tj
+0 -15 Td (highest probability is selected as the output.) Tj
+0 -15 Td () Tj
+0 -15 Td (3. Dataset Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (Are you using any dataset?) Tj
+0 -15 Td (Yes, the project is intended to use a labeled waste image dataset for training and testing the) Tj
+0 -15 Td (MobileNetV2 model.) Tj
+0 -15 Td () Tj
+0 -15 Td (What dataset have you used?) Tj
+0 -15 Td (The system is structured for a waste dataset containing classes such as plastic, glass, paper,) Tj
+0 -15 Td (food, metal, battery, e-waste, and mixed waste.) Tj
+0 -15 Td () Tj
+0 -15 Td (How did you collect your dataset?) Tj
+0 -15 Td (The dataset can be collected from open waste image datasets, public environmental image sources,) Tj
+0 -15 Td (and manually curated labeled images for each waste category.) Tj
+0 -15 Td () Tj
+0 -15 Td (How is your dataset structured?) Tj
+0 -15 Td (The dataset is structured class-wise, where each folder contains images of one waste type, such) Tj
+0 -15 Td (as plastic, glass, food, paper, and so on.) Tj
+0 -15 Td () Tj
+0 -15 Td (What preprocessing steps did you apply?) Tj
+0 -15 Td (I applied RGB conversion, resizing, normalization, and consistent input formatting. During) Tj
+0 -15 Td (inference, I removed randomness and avoided augmentation so the same image gives the same) Tj
+0 -15 Td (output.) Tj
+0 -15 Td () Tj
+0 -15 Td (How do you label your data?) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2790 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+(Each image is labeled based on its material type, such as plastic, glass, paper, food, battery,) Tj
+0 -15 Td (or e-waste. These material classes are then mapped into broader waste categories like) Tj
+0 -15 Td (recyclable, organic, or hazardous.) Tj
+0 -15 Td () Tj
+0 -15 Td (What challenges did you face with the dataset?) Tj
+0 -15 Td (Major challenges include class imbalance, limited data for some categories, visually similar) Tj
+0 -15 Td (waste items, mixed-object images, varied lighting conditions, and background noise.) Tj
+0 -15 Td () Tj
+0 -15 Td (4. System Architecture Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What technologies are used in your project?) Tj
+0 -15 Td (Frontend uses React and Tailwind CSS. Backend uses FastAPI. The AI pipeline is designed around) Tj
+0 -15 Td (MobileNetV2 and TensorFlow Lite. The project also includes Recharts, webcam support, analysis) Tj
+0 -15 Td (APIs, chatbot logic, scheduling, and smart city modules.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is the role of frontend and backend?) Tj
+0 -15 Td (The frontend provides the app-like user interface with separate pages for classification,) Tj
+0 -15 Td (sustainability, smart city, analytics, research, admin, and user access. The backend handles) Tj
+0 -15 Td (image processing, prediction, analysis generation, organization matching, chatbot responses, and) Tj
+0 -15 Td (scheduling.) Tj
+0 -15 Td () Tj
+0 -15 Td (Why did you choose FastAPI?) Tj
+0 -15 Td (I chose FastAPI because it is fast, lightweight, simple to build APIs with, and well-suited for) Tj
+0 -15 Td (AI-based backend services. It also provides clean structure and good performance.) Tj
+0 -15 Td () Tj
+0 -15 Td (Why did you use TensorFlow Lite?) Tj
+0 -15 Td (TensorFlow Lite is useful for lightweight deployment and efficient inference, especially for) Tj
+0 -15 Td (mobile-friendly and edge-based systems. It matches well with MobileNetV2.) Tj
+0 -15 Td () Tj
+0 -15 Td (How does your system work step by step?) Tj
+0 -15 Td (1. User opens the app and selects a module.) Tj
+0 -15 Td () Tj
+0 -15 Td (2. User chooses image upload or webcam.) Tj
+0 -15 Td () Tj
+0 -15 Td (3. The image is sent to the FastAPI backend.) Tj
+0 -15 Td () Tj
+0 -15 Td (4. Backend preprocesses the image.) Tj
+0 -15 Td () Tj
+0 -15 Td (5. The model predicts waste type and category.) Tj
+0 -15 Td () Tj
+0 -15 Td (6. Backend generates top predictions, sustainability insights, counts, support points, and recommendations.) Tj
+0 -15 Td () Tj
+0 -15 Td (7. Frontend shows results, suggestions, organizations, dashboards, and other modules.) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (How is data flow happening in your system?) Tj
+0 -15 Td (The image goes from frontend to backend API. Backend preprocesses it, runs classification and) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 3099 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+(supporting logic, then sends a structured JSON response back. Frontend renders the predictions,) Tj
+0 -15 Td (metrics, charts, and support modules.) Tj
+0 -15 Td () Tj
+0 -15 Td (5. Feature-Based Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What are the key features of your project?) Tj
+0 -15 Td (The key features are image upload, live webcam detection, waste classification, top-3) Tj
+0 -15 Td (predictions, multi-object detection view, recycling suggestions, environmental awareness, NGO) Tj
+0 -15 Td (and recycling center support, scheduling, sustainability analytics, and smart city modules.) Tj
+0 -15 Td () Tj
+0 -15 Td (What are the new features you implemented?) Tj
+0 -15 Td (I added app-like page flow, feature hub navigation, multi-object detection view with bounding) Tj
+0 -15 Td (boxes, item counting, weight and volume estimation, carbon footprint estimation, decomposition) Tj
+0 -15 Td (time, AQI and weather interaction, smart bin simulation, predictive analytics, NGO/government) Tj
+0 -15 Td (support, chatbot, scheduling, gamification, awareness quiz, admin dashboard, explainability, and) Tj
+0 -15 Td (research modules.) Tj
+0 -15 Td () Tj
+0 -15 Td (What makes your system unique?) Tj
+0 -15 Td (It is not just a classifier. It combines AI waste recognition with environmental insights,) Tj
+0 -15 Td (recycling suggestions, municipal support, NGO matching, sustainability analytics, user modules,) Tj
+0 -15 Td (and research-oriented features in one structured app.) Tj
+0 -15 Td () Tj
+0 -15 Td (How does real-time detection work?) Tj
+0 -15 Td (Real-time detection works through the webcam. The user captures a frame, the frame is sent to) Tj
+0 -15 Td (the backend, and the backend returns prediction results. The interface supports practical live) Tj
+0 -15 Td (scanning use.) Tj
+0 -15 Td () Tj
+0 -15 Td (How are suggestions generated?) Tj
+0 -15 Td (Suggestions are generated based on the predicted waste type and waste category. For example,) Tj
+0 -15 Td (plastic gets recycling guidance, food gets compost guidance, and hazardous items get safe) Tj
+0 -15 Td (disposal instructions.) Tj
+0 -15 Td () Tj
+0 -15 Td (How does NGO integration work?) Tj
+0 -15 Td (After classification, the system matches the waste type and category with relevant NGO,) Tj
+0 -15 Td (government, or recycling-center records. Different materials like glass, plastic, food, and) Tj
+0 -15 Td (hazardous waste show different support points.) Tj
+0 -15 Td () Tj
+0 -15 Td (6. Comparison with Existing Systems) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What are the existing systems available?) Tj
+0 -15 Td (Existing systems include manual waste segregation, simple recycling information apps, smart bins) Tj
+0 -15 Td (with sensors, and some image-based waste classification tools.) Tj
+0 -15 Td () Tj
+0 -15 Td (What are the limitations of existing systems?) Tj
+0 -15 Td (Most existing systems only identify waste type or provide basic disposal suggestions. They often) Tj
+0 -15 Td (lack smart city integration, environmental metrics, scheduling, NGO support, awareness features,) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 2831 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+(and app-like modular workflow.) Tj
+0 -15 Td () Tj
+0 -15 Td (How is your system better than existing ones?) Tj
+0 -15 Td (My system combines classification, support services, environmental analysis, analytics,) Tj
+0 -15 Td (awareness, and smart city modules in one platform. It helps not only in identifying waste but) Tj
+0 -15 Td (also in guiding what to do after detection.) Tj
+0 -15 Td () Tj
+0 -15 Td (What improvements did you introduce?) Tj
+0 -15 Td (I introduced modular navigation, multi-object view, environmental metrics, AQI and weather) Tj
+0 -15 Td (modules, NGO and government support, smart city support page, scheduling, analytics dashboards,) Tj
+0 -15 Td (and research-level modules.) Tj
+0 -15 Td () Tj
+0 -15 Td (7. Usefulness & Impact Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (Who are the target users of your system?) Tj
+0 -15 Td (Target users include households, schools, colleges, offices, NGOs, municipal teams, smart city) Tj
+0 -15 Td (authorities, and citizens interested in sustainable waste management.) Tj
+0 -15 Td () Tj
+0 -15 Td (Why is your project useful?) Tj
+0 -15 Td (It is useful because it reduces confusion in waste segregation, improves awareness, and connects) Tj
+0 -15 Td (AI prediction with practical action like disposal guidance, support points, and analytics.) Tj
+0 -15 Td () Tj
+0 -15 Td (How does it help in smart cities?) Tj
+0 -15 Td (It helps smart cities by improving segregation, supporting cleaner recycling streams, assisting) Tj
+0 -15 Td (municipal decision-making, showing nearby centers, and enabling collection scheduling and civic) Tj
+0 -15 Td (awareness.) Tj
+0 -15 Td () Tj
+0 -15 Td (How does it help the environment?) Tj
+0 -15 Td (It reduces improper disposal, encourages recycling and composting, improves awareness about long) Tj
+0 -15 Td (decomposition times, and highlights carbon impact and methane risks.) Tj
+0 -15 Td () Tj
+0 -15 Td (What are the real-world applications?) Tj
+0 -15 Td (Applications include smart bins, municipal waste systems, apartment waste support tools, campus) Tj
+0 -15 Td (awareness platforms, recycling assistance apps, and city-level sustainability dashboards.) Tj
+0 -15 Td () Tj
+0 -15 Td (8. Performance & Evaluation Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What is the accuracy of your model?) Tj
+0 -15 Td (The exact accuracy depends on the trained model and dataset evaluation. The current system) Tj
+0 -15 Td (structure supports MobileNetV2, but full production accuracy requires a trained model file and) Tj
+0 -15 Td (test evaluation results.) Tj
+0 -15 Td () Tj
+0 -15 Td (How do you evaluate your model?) Tj
+0 -15 Td (The model is evaluated by testing it on labeled validation and test images and checking how) Tj
+0 -15 Td (often predicted classes match the actual labels.) Tj
+0 -15 Td () Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 2811 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+(What metrics did you use?) Tj
+0 -15 Td (Common evaluation metrics are accuracy, precision, recall, F1-score, and confusion matrix.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is precision and recall?) Tj
+0 -15 Td (Precision is the percentage of predicted positive cases that are actually correct. Recall is the) Tj
+0 -15 Td (percentage of actual positive cases that the model successfully detects.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is a confusion matrix?) Tj
+0 -15 Td (A confusion matrix is a table showing correct and incorrect predictions across all classes. It) Tj
+0 -15 Td (helps identify which classes are being confused, for example glass and plastic.) Tj
+0 -15 Td () Tj
+0 -15 Td (9. Limitations & Challenges) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What are the limitations of your project?) Tj
+0 -15 Td (The main limitation is that high real-world accuracy depends on a good trained model and strong) Tj
+0 -15 Td (dataset. Similar-looking materials, poor lighting, and cluttered scenes can still reduce) Tj
+0 -15 Td (prediction quality.) Tj
+0 -15 Td () Tj
+0 -15 Td (What challenges did you face?) Tj
+0 -15 Td (I faced challenges in dataset quality, class similarity, mixed-object scenes, lighting) Tj
+0 -15 Td (variation, correct label mapping, and balancing accuracy with lightweight deployment.) Tj
+0 -15 Td () Tj
+0 -15 Td (What issues occur during prediction?) Tj
+0 -15 Td (Possible issues include low confidence, confusion between similar materials, visual clutter,) Tj
+0 -15 Td (image noise, and weaker performance when a trained model is unavailable.) Tj
+0 -15 Td () Tj
+0 -15 Td (How do you handle incorrect predictions?) Tj
+0 -15 Td (I handle incorrect predictions by using deterministic preprocessing, showing top-3 predictions,) Tj
+0 -15 Td (confidence scores, and support modules. Future retraining and better datasets can improve) Tj
+0 -15 Td (accuracy further.) Tj
+0 -15 Td () Tj
+0 -15 Td (10. Future Scope Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (What are the future improvements?) Tj
+0 -15 Td (Future improvements include adding a fully trained MobileNetV2 model, YOLO-based real object) Tj
+0 -15 Td (detection, better datasets, real AQI/weather APIs, real IoT integration, mobile deployment, and) Tj
+0 -15 Td (live municipal system integration.) Tj
+0 -15 Td () Tj
+0 -15 Td (Can your system be deployed in real cities?) Tj
+0 -15 Td (Yes, it can be deployed in real cities with trained models, real recycling-center databases, map) Tj
+0 -15 Td (APIs, and municipal partnerships.) Tj
+0 -15 Td () Tj
+0 -15 Td (How can you scale your project?) Tj
+0 -15 Td (It can be scaled through cloud deployment, mobile app versions, edge-device inference, larger) Tj
+0 -15 Td (city-wise databases, and integrations with municipal and recycling networks.) Tj
+0 -15 Td () Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 3084 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+(Can this be converted into a mobile app?) Tj
+0 -15 Td (Yes. Since the project is modular, it can be converted into a mobile app using React Native or) Tj
+0 -15 Td (similar frameworks, and the AI model can run through TensorFlow Lite.) Tj
+0 -15 Td () Tj
+0 -15 Td (11. Advanced / Tricky Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (Why didn?t you use YOLO or other models?) Tj
+0 -15 Td (I chose MobileNetV2 because it is lightweight, efficient, and practical for classification-) Tj
+0 -15 Td (focused deployment. YOLO is better for full object detection and is a strong future extension) Tj
+0 -15 Td (for more advanced real-time multi-object detection.) Tj
+0 -15 Td () Tj
+0 -15 Td (What happens if lighting conditions are poor?) Tj
+0 -15 Td (Poor lighting reduces image clarity and can affect prediction quality. Better training data,) Tj
+0 -15 Td (preprocessing, and lighting-diverse augmentation during training can help reduce this problem.) Tj
+0 -15 Td () Tj
+0 -15 Td (How does your model handle multiple objects?) Tj
+0 -15 Td (The current system includes a multi-object detection view using region estimation and object-) Tj
+0 -15 Td (wise analysis. For stronger true object detection, YOLOv8 would be the next advanced model) Tj
+0 -15 Td (choice.) Tj
+0 -15 Td () Tj
+0 -15 Td (Can your system work offline?) Tj
+0 -15 Td (Yes, it can work offline if the model and app resources are available locally. MobileNetV2 with) Tj
+0 -15 Td (TensorFlow Lite is suitable for offline or edge deployment.) Tj
+0 -15 Td () Tj
+0 -15 Td (How do you improve model accuracy?) Tj
+0 -15 Td (Accuracy can be improved by using more labeled data, balancing classes, cleaning mislabeled) Tj
+0 -15 Td (images, using better augmentation during training, and testing on more diverse real-world waste) Tj
+0 -15 Td (images.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is overfitting and how do you avoid it?) Tj
+0 -15 Td (Overfitting happens when the model performs well on training data but poorly on unseen data. It) Tj
+0 -15 Td (can be avoided using train-validation-test splits, augmentation, regularization, dropout, and) Tj
+0 -15 Td (early stopping.) Tj
+0 -15 Td () Tj
+0 -15 Td (12. Final Viva Questions) Tj
+0 -15 Td () Tj
+0 -15 Td () Tj
+0 -15 Td (Explain your project in one minute) Tj
+0 -15 Td (EcoVision AI Nexus is an AI-based smart waste management platform. It takes waste images from) Tj
+0 -15 Td (upload or webcam, identifies the waste type, classifies it into recyclable, non-recyclable,) Tj
+0 -15 Td (organic, or hazardous categories, and provides guidance for disposal. It also includes multi-) Tj
+0 -15 Td (object detection, carbon and decomposition insights, chatbot support, nearby recycling and NGO) Tj
+0 -15 Td (points, scheduling, analytics, smart city modules, and awareness features. The goal is to) Tj
+0 -15 Td (improve waste segregation, sustainability, and smart civic waste handling.) Tj
+0 -15 Td () Tj
+0 -15 Td (What is your role in the project?) Tj
+0 -15 Td (My role was designing the system architecture, building the AI-powered waste detection flow,) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 1184 >>
+stream
+BT
+/F1 11 Tf
+50 786 Td
+(integrating the frontend and backend, and implementing the smart city, sustainability, and) Tj
+0 -15 Td (modular app features.) Tj
+0 -15 Td () Tj
+0 -15 Td (What did you learn from this project?) Tj
+0 -15 Td (I learned how AI can solve real-world environmental problems, how to build a full-stack AI) Tj
+0 -15 Td (application, how image classification systems work, and how to combine technical AI modules with) Tj
+0 -15 Td (sustainability and civic-use features.) Tj
+0 -15 Td () Tj
+0 -15 Td (Why should this project be implemented?) Tj
+0 -15 Td (It should be implemented because waste mismanagement is a serious environmental issue. This) Tj
+0 -15 Td (project supports correct segregation, improves public awareness, and connects AI with practical) Tj
+0 -15 Td (waste handling and city-support systems.) Tj
+0 -15 Td () Tj
+0 -15 Td (If given more time, what would you improve?) Tj
+0 -15 Td (I would improve the trained AI model, add real YOLO-based object detection, integrate real map) Tj
+0 -15 Td (and AQI APIs, connect real municipal and NGO systems, and deploy the platform as a production-) Tj
+0 -15 Td (grade mobile and web solution.) Tj
+0 -15 Td () Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+xref
+0 20
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000168 00000 n 
+0000000238 00000 n 
+0000003272 00000 n 
+0000003398 00000 n 
+0000006145 00000 n 
+0000006271 00000 n 
+0000009113 00000 n 
+0000009239 00000 n 
+0000012391 00000 n 
+0000012519 00000 n 
+0000015403 00000 n 
+0000015531 00000 n 
+0000018395 00000 n 
+0000018523 00000 n 
+0000021660 00000 n 
+0000021788 00000 n 
+0000023025 00000 n 
+trailer
+<< /Size 20 /Root 1 0 R >>
+startxref
+23153
+%%EOF
